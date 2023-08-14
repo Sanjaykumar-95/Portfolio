@@ -113,27 +113,16 @@ body{
     color: #ffffff;
   }
 
-/* #skills-title{
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-}
-.skill{
-    text-align: center;
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
-    background: rgba(153,153,153,.2);
-    border-radius: 5px;
-    font-weight: 600;
-} */
 
 #Experience-title{
     font-weight: bold;
     text-align: center;
     font-size: 50px;
     font-style: italic;
+}
+
+#Experience .sub-title{
+    font-style: oblique;
 }
 
 
