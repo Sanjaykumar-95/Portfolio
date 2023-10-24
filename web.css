@@ -114,6 +114,50 @@ body{
   }
 
 
+  /* Achievements */
+  #Achievements-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+  }
+
+  #Achievements-title::after{
+    position: absolute;
+    content: ' ';
+    width: 25%;
+    height: 3px;
+    left: 50%;
+    bottom: -5px;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+  #Certifications-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+  }
+  
+  .card img {
+    max-width: 80%;
+    max-height: 80%;
+    height: auto;
+  }
+
+  .Profiles{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile{
+    flex-grow: 1;
+    width: 250px;
+  }
+
+
+  /* Experience */
 #Experience-title{
     font-weight: bold;
     text-align: center;
