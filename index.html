@@ -9,14 +9,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="web.css">
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio - Sanjay Kumar</title>
 </head>
 
-
-
 <body>
-  <nav class="navbar navbar-inverse">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,278 +26,256 @@
         </button>
         <a class="navbar-brand" href="#">SK</a>
       </div>
-
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right">
           <li><a href="#home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Coding">Coding</a></li>
-          <li><a href="#Experience">Experience</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="Sanjay Kumar.pdf" target="_blank">Resume</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#coding">Coding</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="images/Sanjay-Kumar.pdf" target="_blank">Resume</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="home" class="container-fluid">
-    <div class="row" style="display: flex; justify-content: space-between; margin-top: 50px; margin-bottom: 100px;">
-      <div class="photo"><img src="20A91A0595.jpg" alt=""></div>
-      <div class="content">
-        <h3>Hello, It's Me</h3>
-        <h1>Sanjay Kumar</h1>
-        <h3>And I'm a <span>Full Stack Developer</span></h3>
-        <div class="row" style="font-size: 30px;">
-
-          <div class="col-md-2"><a href="https://github.com/Sanjaykumar-95"><i class="fa fa-github" aria-hidden="true" style="color: grey;"></i></a>
-          </div>
-          <div class="col-md-2"><a href="https://www.linkedin.com/in/sanjay-kumar-b23a81212/"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: grey;"></i></a></div>
-          <div class="col-md-2"><a href=""><i class="fa fa-envelope" aria-hidden="true" style="color: grey;"></i></a>
-          </div>
-          <div class="col-md-2"><a href=""><i class="fa fa-phone-square" aria-hidden="true" style="color: grey;"></i></a>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="About" class="container-fluid" style="margin-top: 100px; margin-bottom: 100px;">
-    <div class="row" style="display: flex; justify-content: space-between;">
-      <div class="col-md-12" id="About-title">About</div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <span style="font-weight: bold; font-size: 30px;">About me : </span>
-        <br><br>
-        <div class="about-content" style="font-style: italic;">
-          As a final year B.Tech student with a passion for technology 
-          and a focus on full stack development, I have gained valuable 
-          experience and skills throughout my academic journey. My proficiency 
-          in Java, a versatile programming language, has allowed me to tackle 
-          various software challenges and contribute to projects with a strong 
-          foundation in backend development. Additionally, my exposure to full stack 
-          development has equipped me with the ability to work seamlessly across 
-          both frontend and backend, ensuring holistic and user-friendly applications.
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <span style="font-weight: bold; font-size: 30px;">My Skills : </span>
-        <br><br>
-        <div class="myskills">
-          <div class="col-md-2 skill">Java</div>
-          <div class="col-md-2 skill">HTML</div>
-          <div class="col-md-2 skill">CSS</div>
-          <div class="col-md-3 skill">BootStrap</div>
-          <div class="col-md-3 skill">JavaScript</div>
-          <div class="col-md-3 skill">React Js</div>
-          <div class="col-md-2 skill">Node.js</div>
-          <div class="col-md-3 skill">Mongo DB</div>
-          <div class="col-md-2 skill">SQL</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Achievements -->
-  <!-- style="margin-top: 100px; margin-bottom: 100px;" -->
-  <div id="Coding" class="container-fluid">
-    <div class="row">
-      <div class="col-md-12" id="Achievements-title">Coding Profiles</div>
-    </div>
-  
-    <div class="row Profiles" style="text-align: center;">
-      <div class="col-md-3 profile">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="Leetcode.png" alt="Leetcode">
-          <div class="card-body" style="text-align: center; padding-top: 10px;">
-            <p class="card-text" style="font-size: 20px;">Solved 300+ problems</p>
-            <a href="https://leetcode.com/20A91A0595/" class="btn btn-primary" target="_blank">Click</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 profile">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="GFG-removebg-preview.png" alt="GeeksforGeeks">
-          <div class="card-body" style="text-align: center; padding-top: 10px;">
-            <p class="card-text" style="font-size: 20px;">Solved 250+ problems</p>
-            <a href="https://auth.geeksforgeeks.org/user/20a91a0595/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" class="btn btn-primary" target="_blank">Click</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 profile">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="CodeChef-removebg-preview.png" alt="CodeCheff">
-          <div class="card-body" style="text-align: center; padding-top: 10px;">
-            <p class="card-text" style="font-size: 20px;">Solved 100+ problems</p>
-            <a href="https://www.codechef.com/users/sanjaypandu95" class="btn btn-primary" target="_blank">Click</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 profile">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="Hackerank.avif" alt="Hackerank">
-          <div class="card-body" style="text-align: center; padding-top: 10px;">
-            <p class="card-text" style="font-size: 20px;">Earned 5 star badges</p>
-            <a href="https://www.hackerrank.com/profile/20A91A0595" class="btn btn-primary" target="_blank">Click</a>
-          </div>
-        </div>
-      </div>
-
-     </div>
-
-  </div>
-  
-
-  
-  <!-- Experience -->
-  <div id="Experience" class="container-fluid" style="margin-top: 150px; margin-bottom: 100px;">
-    <div class="row" style="display: flex; justify-content: space-between;">
-      <div class="col-md-12" id="Experience-title">Experience</div>
-    </div>
-    <br><br>
-
+  <!-- Home Section -->
+  <section id="home" class="home-section">
     <div class="container">
-      <ul>
-        <li>
-          <h3 class="title">Full Stack Developer</h3>
-          <h4 class="sub-title">Technical Hub</h4>
-          <span class="circle"></span>
-          <p>During my 4-month internship at Technical Hub,
-            I honed my skills in full stack development by
-            working on diverse projects. I gained hands-on
-            experience in developing a React JS and Node JS
-            web application, integrating databases, and
-            successfully deploying it to production.
-            Additionally, I developed effective teamwork
-            and collaboration skills while working
-            alongside fellow developers.</p>
-        </li>
-
-        <li>
-          <h3 class="title">Java Development</h3>
-          <h4 class="sub-title">Oasis Infobyte</h4>
-          <span class="circle"></span>
-          <p>Gained hands-on experience during a comprehensive 
-            1-month Java programming internship at Oasis Infobyte, 
-            successfully tackling coding challenges and refining 
-            technical skills under professional guidance.</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-
-  
-  <!-- Projects -->
-  <div id="Projects" class="container-fluid" style="margin-top: 280px; margin-bottom: 100px;">
-    <div class="row" style="display: flex; justify-content: space-between;">
-      <div class="col-md-12" id="Project-title">Projects</div>
-    </div>
-
-    <div class="row" style="display: flex; justify-content: space-between;">
-      <div class="col-md-12"
-        style="text-align: center; font-weight: bold; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-        Web Applications</div>
-    </div>
-
-    <div class="row">
-
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-
-            <div class="item active">
-              <a href="https://tourism-website-project-1-vvta.vercel.app/"
-                target="_blank"><img src="Tourism.jpg" alt="Los Angeles" style="width:100%; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">Tourism Website</h3>
-                <p style="background-color: transparent;">Developed a fully responsive tourism 
-                  website using HTML, CSS, and Bootstrap, featuring stunning visuals and 
-                  user-friendly navigation to enhance the traveler's experience.</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <a href="https://delivery-partner-project-2.vercel.app/" target="_blank"><img src="Delivery_partner.jpg" alt="Chicago" style="width:100%; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">Delivery partner</h3>
-                <p style="background-color: transparent;">Crafted a user-friendly delivery partner 
-                  web application using HTML, CSS, and Bootstrap, ensuring an intuitive 
-                  interface for seamless order tracking and management.</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <a href="#"><img src="portfolio.jpg" alt="New York" style="width:100%; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">Portfolio</h3>
-                <p style="background-color: transparent;">Crafting digital experiences 
-                  that leave a lasting impression. Explore a showcase of 
-                  my creative portfolio, where design meets innovation to 
-                  bring ideas to life.</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <a href="https://netflix-clone-sandy-seven.vercel.app/" target="_blank"><img src="Netflix.webp" alt="New York" style="width:100%; height: 450px; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">Netflix</h3>
-                <p style="background-color: transparent;">Created a solo Netflix project 
-                  from scratch using ReactJS, showcasing my expertise in front-end 
-                  development and UI design.</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <a href="https://tic-tac-toe-virid-xi.vercel.app/" target="_blank"><img src="tic-tac-toe.webp.crdownload" alt="New York" style="width:100%; height: 450px; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">Tic-Tac_Toe</h3>
-                <p style="background-color: transparent;">Created an engaging and interactive Tic-tac-toe game 
-                  using ReactJS, demonstrating my proficiency in front-end development and user interface design.</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <a href="https://qr-generator-vert.vercel.app/" target="_blank"><img src="QR_generator.webp" alt="QR_generator" style="width:100%; height: 450px; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">QR_Genarator</h3>
-                <p style="background-color: transparent;">Created an QR generating application which produce QR for any text,links and profiles</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <a href="https://github.com/Sanjaykumar-95/CRUD_using_Spring_React" target="_blank"><img src="crud_ops.png" alt="CRUD_Operations" style="width:100%; height: 450px; filter: blur(2px);"></a>
-              <div class="carousel-caption" style="background-color: transparent;">
-                <h3 style="background-color: transparent;">CRUD Operations</h3>
-                <p style="background-color: transparent;">Created a simple website executing CRUD operations using Reactjs and SpringBoot</p>
-              </div>
-            </div>
-
+      <div class="row">
+        <div class="col-md-6 home-content">
+          <h3>Hello, It's Me</h3>
+          <h1>Sanjay Kumar</h1>
+          <h3>And I'm a <span>Full Stack Developer</span></h3>
+          <div class="social-links">
+            <a href="https://github.com/Sanjaykumar-95"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sanjay-kumar-b23a81212/"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:your-email@example.com"><i class="fa fa-envelope"></i></a>
+            <a href="tel:+1234567890"><i class="fa fa-phone"></i></a>
           </div>
-
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        </div>
+        <div class="col-md-6 home-photo">
+          <img src="images/20A91A0595.jpg" alt="Sanjay Kumar">
         </div>
       </div>
     </div>
-    <div class="col-md-3"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="about-text">
+            As a B.Tech graduate with a passion for technology,
+            I specialize in full-stack development with a strong
+            foundation in Java. Through hands-on experience in various
+            projects, I have honed my skills in backend development,
+            problem-solving, and building scalable solutions. My expertise
+            in Java enables me to tackle complex software challenges efficiently
+            and contribute effectively to development teams.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="skills">
+            <h3>My Skills</h3>
+            <div class="skill-tags">
+              <span>Java</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coding Section -->
+  <section id="coding" class="coding-section">
+    <div class="container">
+      <h2 class="section-title">Coding Profiles</h2>
+      <div class="row">
+        <div class="col-md-3 profile">
+          <div class="profile-card">
+            <img src="images/Leetcode.png" alt="Leetcode">
+            <h4>Leetcode</h4>
+            <p>Solved 300+ problems</p>
+            <a href="https://leetcode.com/20A91A0595/" target="_blank" class="btn btn-primary">View
+              Profile</a>
+          </div>
+        </div>
+        <div class="col-md-3 profile">
+          <div class="profile-card">
+            <img src="images/GFG-removebg-preview.png" alt="GeeksforGeeks">
+            <h4>GeeksforGeeks</h4>
+            <p>Solved 250+ problems</p>
+            <a href="https://auth.geeksforgeeks.org/user/20a91a0595/" target="_blank" class="btn btn-primary">View
+              Profile</a>
+          </div>
+        </div>
+        <div class="col-md-3 profile">
+          <div class="profile-card">
+            <img src="images/CodeChef-removebg-preview.png" alt="CodeChef">
+            <h4>CodeChef</h4>
+            <p>Solved 100+ problems</p>
+            <a href="https://www.codechef.com/users/sanjaypandu95" target="_blank" class="btn btn-primary">View
+              Profile</a>
+          </div>
+        </div>
+        <div class="col-md-3 profile">
+          <div class="profile-card">
+            <img src="images/Hackerank.avif" alt="HackerRank">
+            <h4>HackerRank</h4>
+            <p>Earned 5-star badges</p>
+            <a href="https://www.hackerrank.com/profile/20A91A0595" target="_blank" class="btn btn-primary">View
+              Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Full Stack Developer</h3>
+          <h4>Technical Hub</h4>
+          <p>During my 4-month internship at Technical Hub, I honed my skills in full stack development by
+            working on diverse projects. I gained hands-on experience in developing a React JS and Node JS
+            web application, integrating databases, and successfully deploying it to production.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Java Development</h3>
+          <h4>Oasis Infobyte</h4>
+          <p>Gained hands-on experience during a comprehensive 1-month Java programming internship at Oasis
+            Infobyte, successfully tackling coding challenges and refining technical skills under
+            professional guidance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row">
+
+        <!-- Personal Portfolio -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/Portfolio.jpg" alt="Personal Portfolio">
+            <div class="project-details">
+              <h3>Personal Portfolio</h3>
+              <p>Developed a responsive portfolio using HTML, CSS, Bootstrap, and JavaScript.</p>
+              <a href="https://portfolio-wheat-one-65.vercel.app/" target="_blank"
+                class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- E-Commerce Website -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/ecommerce-store.png" alt="E-Commerce Website">
+            <div class="project-details">
+              <h3>E-Commerce Website</h3>
+              <p>Developed an e-commerce website with product listings, cart, and payment integration.</p>
+              <a href="https://e-commerce-user-19el.onrender.com" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI-Based Trip Planner -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/AI-Trip-planner.jpg" alt="Trip Planner">
+            <div class="project-details">
+              <h3>AI-Based Trip Planner</h3>
+              <p>Developed a trip planning app using AI to generate place recommendations and budget
+                suggestions.</p>
+              <a href="https://plan-your-trip-ai-tkpe.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Late Comers Tracking System -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/late-commers.jpg" alt="Late Comers Tracking System">
+            <div class="project-details">
+              <h3>Late Comers Tracking System</h3>
+              <p>Built a web application using React.js and MongoDB to track and manage latecomers
+                efficiently.</p>
+              <a href="https://github.com/K-Sanjay-Kumar/Late-Comers.git" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tourism Website -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/Tourism.jpg" alt="Tourism Website">
+            <div class="project-details">
+              <h3>Tourism Website</h3>
+              <p>Developed a fully responsive tourism website using HTML, CSS, and Bootstrap.</p>
+              <a href="https://tourism-website-project-1-vvta.vercel.app/" target="_blank" class="btn btn-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Netflix Clone -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/Netflix.webp" alt="Netflix Clone">
+            <div class="project-details">
+              <h3>Netflix Clone</h3>
+              <p>Created a Netflix clone using ReactJS.</p>
+              <a href="https://netflix-clone-sandy-seven.vercel.app/" target="_blank" class="btn btn-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- QR Generator -->
+        <div class="col-md-4 project">
+          <div class="project-card">
+            <img src="images/QR_generator.webp" alt="QR Generator">
+            <div class="project-details">
+              <h3>QR Generator</h3>
+              <p>Created a QR generating application using ReactJS.</p>
+              <a href="https://qr-generator-vert.vercel.app/" target="_blank" class="btn btn-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sanjay Kumar. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
 </body>
 
 </html>
